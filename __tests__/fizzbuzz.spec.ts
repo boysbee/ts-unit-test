@@ -21,7 +21,7 @@ describe("FizzBuzz",() => {
         })
 
         test("it should return fizz when input number 30",() => {
-            expect(fizzBuzz.fizzBuzz(30)).toBe("fizz")
+            expect(fizzBuzz.fizzBuzz(30)).toBe("fizzbuzz")
         })
 
 
