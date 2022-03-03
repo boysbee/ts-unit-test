@@ -1,4 +1,4 @@
-import {FizzBuzz} from '../src/fizzbuzz'
+import fizzbuzz, {FizzBuzz} from '../src/fizzbuzz'
 
 describe("FizzBuzz",() => {
     const fizzBuzz = new FizzBuzz()
@@ -19,6 +19,11 @@ describe("FizzBuzz",() => {
         test("it should return fizzbuzz when input number that diviable by 3 and 5",() => {
             expect(fizzBuzz.fizzBuzz(45)).toBe("fizzbuzz")
         })
+
+        test("it should return fizz when input number 30",() => {
+            expect(fizzBuzz.fizzBuzz(30)).toBe("fizz")
+        })
+
 
         
     })
